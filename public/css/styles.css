@@ -1,0 +1,196 @@
+body {
+  font-family: helvetica;
+  width: 80%;
+  margin: 0px auto;
+  line-height: 1.4em;
+  font-size: 1.2em;
+  background-color: rgb(245,245,245);
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  color: black;
+  margin: 0px 0px 20px 0px;
+  font-size: 0.9em;
+}
+
+.info {
+  font-size: 0.8em;
+  line-height: 1em;
+  color: darkblue;
+}
+
+.kader {
+  background-color: rgb(211,211,211);
+  padding: 20px;
+  width: 28%;
+  float: left;
+  margin: 0px 0.8% 0px 0.8%;
+}
+
+.info a {
+  color: darkblue;
+}
+
+.info a:hover {
+  color: rgb(255,51,51);
+}
+
+.nieuws {
+  padding: 0% 40% 2% 2%;
+}
+
+h1 a {
+  color: rgb(245,245,245);
+}
+
+h1 a:hover {
+  color: rgb(245,245,245);
+}
+
+h2 {
+  margin: 20px 0px 10px 0px;
+  font-weight: bold;
+  color: gray;
+}
+
+h2 a {
+  color: darkblue;
+  font-size: 1.2em;
+}
+
+h2 a:hover {
+  color: rgb(105,105,105);
+}
+
+.titelnieuws {
+  color: darkblue;
+  font-size: 1.5em;
+  margin: 10px 0px 10px 0px;
+  line-height: 1.8em;
+}
+
+h3 {
+  display: inline;
+}
+
+nav {
+  margin: 25px 0;
+}
+
+nav a {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+      text-decoration: none;
+      color: rgb(255,51,51);
+}
+
+a:hover {
+      cursor: pointer;
+      color: darkblue;
+      transition: ease 0.3s;
+}
+
+.tags {
+    float: left;
+    border: 2px solid rgb(255,51,51);
+    text-align: left;
+    color: rgb(255,51,51);
+    font-weight: bold;
+    font-size: 1em;
+    padding: 24px 20px 24px 20px;
+    width: 20%;
+}
+
+.titel {
+      background-color: rgb(255,51,51);
+      text-align: left;
+      padding: 10px;
+      color: rgb(245,245,245);
+      font-weight: bold;
+      font-size: 2em;
+      float: right;
+}
+
+.green {
+      background-color: rgb(72,224,208);
+}
+
+.t1 {
+      width: 57%;
+}
+
+.t2 {
+      width: 47%;
+      margin: 10px 0px 20px 0px;
+}
+
+.titelkader1 {
+    margin: 2% 0% 2% 0%;
+    border-bottom: 2px solid darkblue;
+}
+
+@media (max-width: 800px) {
+body {
+  width: 90%;
+}
+
+p {
+  margin: 0px 0px 10px 0px;
+}
+
+.info {
+  padding-top: 5px;
+}
+
+.kader {
+  margin: 10px 0.8% 10px 0.8%;
+  width: auto;
+}
+
+h2 {
+  margin: 10px 0px 10px 0px;
+}
+
+h2 a {
+  font-size: 1em;
+}
+
+h2 a:hover {
+  color: rgb(105,105,105);
+}
+
+.titelnieuws {
+  font-size: 1em;
+}
+
+.tags {
+    text-align: left;
+    width: 100%;
+}
+
+.titel {
+      font-size: 1.2em;
+      padding: 5px;
+      margin: 20px 0px 0px 0px;
+    }
+
+.t1 {
+      width: 60%;
+}
+
+.t2 {
+      width: 47%;
+      margin: 10px 0px 20px 0px;
+}
+}

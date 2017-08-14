@@ -1,0 +1,38 @@
+<% include header %>
+
+<div class="titelkader1">
+
+<div class="titel t1">
+      <h1><a href="/">down-to-earth</a></h1>
+</div>
+
+<div class="titel t2">
+      <h1><a href="/">magazine</a></h1>
+</div>
+
+<div class="clear"></div>
+</div>
+
+
+  <% var teller = 1; %>
+  <% nieuws.forEach(function(item){ %>
+    <section>
+      <div class="kader">
+      <img src="/img/<%- item.afbeeldings %>" alt="<%- item.titel %>">
+
+      <div class="tekstartikel">
+        <h2><a href=/items/<%- item.id %>><%- item.titel %></a></h2>
+
+        <p class="info"><% for (var i = 0; i < item.categorieen.length; i++) { %>
+          <a href="/categorieen/<%- i %>"><%- item.categorieen[i] %></a><% if (i+1< item.categorieen.length){ %>, <% } %>
+        <% } %></p>
+
+        <p>
+          <%- item.samenvatting %>
+        </p>
+    </section>
+    <% teller++;}); %>
+</div>
+</div>
+
+<% include footer %>
