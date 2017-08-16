@@ -23,6 +23,14 @@ p {
   color: darkblue;
 }
 
+footer {
+  font-size: 0.8em;
+  line-height: 1em;
+  color: red;
+  text-align: center;
+  margin: 0px auto;
+}
+
 .kader {
   background-color: rgb(211,211,211);
   padding: 20px;
